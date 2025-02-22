@@ -1,0 +1,77 @@
+name: hoot
+description: A new Flutter project.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  cached_network_image: ^3.3.0
+  carousel_slider: ^4.2.1
+  connectivity_plus: null
+  cupertino_icons: ^1.0.2
+  easy_stepper: null
+  fl_chart: ^0.60.0
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.3.0
+  flutter_cached_pdfview: ^0.4.2
+  flutter_tts: null
+  get: ^4.6.6
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: null
+  internet_connection_checker: null
+  lottie: null
+  path_provider: null
+  percent_indicator: ^4.2.3
+  permission_handler: null
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  shimmer: ^3.0.0
+  sizer: ^2.0.15
+  slide_countdown: ^1.6.1
+  speech_to_text: null
+  url_launcher: ^6.2.3
+  audioplayers: ^6.1.0
+  google_speech: ^5.3.0
+  record: ^5.1.2
+  just_audio: ^0.9.41
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/Lottie/
+    - assets/FONT/
+    - assets/test_service_account.json
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/FONT/Lato-Regular.ttf
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
