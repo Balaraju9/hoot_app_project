@@ -8,7 +8,7 @@ import 'package:http/http.dart' as http;
 import 'package:audioplayers/audioplayers.dart';
 
 class GoogleTextToSpeechService {
-  final String apiKey = 'AIzaSyDqEIlGfazPNuuWpBx4YOQNpp30T_F7u3Y';
+  final String apiKey = 'removed_the_api_cuz_that_is_not_legal_balu';
   final String url =
       'https://texttospeech.googleapis.com/v1beta1/text:synthesize';
   final AudioPlayer _audioPlayer = AudioPlayer();
